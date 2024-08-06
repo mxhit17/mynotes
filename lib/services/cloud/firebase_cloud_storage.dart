@@ -14,7 +14,7 @@ class FirebaseCloudStorage {
     }
   }
 
-  Future<void> updateNotes({
+  Future<void> updateNote({
     required String documentId,
     required String text,
   }) async {
